@@ -1,0 +1,42 @@
+ul {
+  margin: 0px;
+}
+.header {
+  padding: 0px;
+  height: 100vh;
+}
+li {
+  color: white;
+  opacity: 0.8;
+  margin: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  line-height: 2rem;
+}
+h1 {
+  font-size: 30px;
+}
+.bg-primary {
+  padding-left: 0px;
+  width: 35vw;
+  padding: 20px;
+}
+@media all and (max-width: 375px) {
+  .bg-primary {
+    display: none;
+  }
+}
+li:hover {
+  opacity: none;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(240, 238, 238);
+}
+.dash {
+  font-size: 20px;
+}
+Link {
+  text-decoration: none;
+}

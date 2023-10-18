@@ -1,0 +1,39 @@
+.input {
+  border-color: transparent;
+  margin-left: 8px;
+}
+.products,
+.products-list {
+  margin: 0px;
+  padding: 48px;
+  min-height: 400px;
+}
+.price {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.li-item {
+  width: 920px;
+}
+.stocks {
+  width: 150px;
+}
+.bg-color {
+  margin: 0px;
+  border-radius: 8px;
+  background-color: white;
+}
+.sells {
+  padding: 38px;
+}
+.products-responsive {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+}
+@media (min-width: 365px) {
+  .products-responsive {
+    display: flex;
+  }
+}
